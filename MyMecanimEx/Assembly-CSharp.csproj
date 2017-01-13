@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{71A7A0ED-B444-A586-6F3F-C1F00AFC82E8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,34 +46,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Action.cs" />
-     <Compile Include="Assets\Scripts\Bazooka.cs" />
-     <Compile Include="Assets\Scripts\CollectLog.cs" />
-     <Compile Include="Assets\Scripts\CollectPopsicle.cs" />
-     <Compile Include="Assets\Scripts\DamageProvider.cs" />
-     <Compile Include="Assets\Scripts\DamageReceiver.cs" />
-     <Compile Include="Assets\Scripts\JoystickToWorld.cs" />
-     <Compile Include="Assets\Scripts\Karma.cs" />
-     <Compile Include="Assets\Scripts\Locomotion.cs" />
-     <Compile Include="Assets\Scripts\LookAhead.cs" />
-     <Compile Include="Assets\Scripts\NPC_DamageReceiver.cs" />
-     <Compile Include="Assets\Scripts\NPC_Patrol.cs" />
-     <Compile Include="Assets\Scripts\NPC_ShootPlayer.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\Player_Shoot.cs" />
-     <Compile Include="Assets\Scripts\Recorder.cs" />
-     <Compile Include="Assets\Scripts\Reset.cs" />
-     <Compile Include="Assets\Scripts\Spawner.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
- <Reference Include="UnityEngine.UI">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Scripts\Action.cs" />
+    <Compile Include="Assets\Scripts\Bazooka.cs" />
+    <Compile Include="Assets\Scripts\CollectLog.cs" />
+    <Compile Include="Assets\Scripts\CollectPopsicle.cs" />
+    <Compile Include="Assets\Scripts\DamageProvider.cs" />
+    <Compile Include="Assets\Scripts\DamageReceiver.cs" />
+    <Compile Include="Assets\Scripts\JoystickToWorld.cs" />
+    <Compile Include="Assets\Scripts\Karma.cs" />
+    <Compile Include="Assets\Scripts\Locomotion.cs" />
+    <Compile Include="Assets\Scripts\LookAhead.cs" />
+    <Compile Include="Assets\Scripts\NPC_DamageReceiver.cs" />
+    <Compile Include="Assets\Scripts\NPC_Patrol.cs" />
+    <Compile Include="Assets\Scripts\NPC_ShootPlayer.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Player_Shoot.cs" />
+    <Compile Include="Assets\Scripts\Recorder.cs" />
+    <Compile Include="Assets\Scripts\Reset.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\_Scripts\CameraMover.cs" />
+    <Compile Include="Assets\_Scripts\LogController.cs" />
+    <Compile Include="Assets\_Scripts\Mylocomotion.cs" />
+    <Compile Include="Assets\_Scripts\NPCPatrol.cs" />
+    <Compile Include="Assets\_Scripts\NPCShoot.cs" />
+    <Compile Include="Assets\_Scripts\PlayerActions.cs" />
+    <Compile Include="Assets\_Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_Scripts\PlayerFall.cs" />
+    <Compile Include="Assets\_Scripts\PlayerWithLog.cs" />
+    <Compile Include="Assets\_Scripts\PopsicleController.cs" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -82,5 +90,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
