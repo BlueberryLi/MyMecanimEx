@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Reset.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\_Scripts\AnimationRecorder.cs" />
      <Compile Include="Assets\_Scripts\BulletDamage.cs" />
      <Compile Include="Assets\_Scripts\CameraMover.cs" />
      <Compile Include="Assets\_Scripts\LogController.cs" />
